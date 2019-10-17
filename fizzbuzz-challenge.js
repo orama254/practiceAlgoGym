@@ -1,6 +1,6 @@
 const fizzbuzz = (num) => {
 
-    for(let i = 0; i <= 100; i++) {
+    for(let i = 0; i <= num; i++) {
         //check if the number is a multiple of 3
         if(1 % 3 === 0) {
             console.log("fizz");

@@ -13,5 +13,5 @@ var reverseLinkedList = function(linkedlist) {
         node = save;
     }
     return previous; //changes the list head
-}
+};
 linkedlist = reverseLinkedList(linkedlist);

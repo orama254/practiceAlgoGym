@@ -10,3 +10,6 @@
                     .join('');
 
 console.log(pushCharsForward('x'));
+console.log(pushCharsForward('m'));
+console.log(pushCharsForward('p'));
+console.log(pushCharsForward('e'));

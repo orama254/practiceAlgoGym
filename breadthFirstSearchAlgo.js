@@ -1,3 +1,8 @@
+/**
+ * This is a BFS algorithm that takes in a graph in form of an Ajacency Matrix and finds the
+shortest distance between two nodes.
+ */
+
 let bfs = (graph, root) => {
     let nodesLen = {};
 

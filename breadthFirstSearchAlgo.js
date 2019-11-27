@@ -1,5 +1,5 @@
 /**
- * This is a BFS algorithm that takes in a graph in form of an Ajacency Matrix and finds the
+ * This is a Breadth First Search algorithm that takes in a graph in form of an Ajacency Matrix and finds the
 shortest distance between two nodes.
  */
 

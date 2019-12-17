@@ -37,7 +37,7 @@ let bfs = (graph, root) => {
     }
 
     console.log(nodesLen); 
-}
+};
 
 
 
@@ -47,6 +47,6 @@ let exBFSGraph = [
     [1,1,0,0,0],
     [0,0,0,1,0],
     [0,1,0,0,0]
-]
+];
 
 bfs(exBFSGraph, 1);

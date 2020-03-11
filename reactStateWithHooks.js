@@ -3,12 +3,15 @@
  * An example of the useState from Hooks Api in React
  */
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const CountingButton = () => {
     const [count, setCount] = useState(0)
 
-
+    useEffect(() => {
+        // Update the document title with number of counts
+        document.title = `Button Clicked ${count} times`;
+      })
 
     return (
         <div>

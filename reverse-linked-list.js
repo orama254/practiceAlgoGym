@@ -1,10 +1,10 @@
-var reverseLinkedList = function(linkedlist) {
-    var node = linkedlist;
-    var previous = null;
+let reverseLinkedList = function(linkedlist) {
+    let node = linkedlist;
+    let previous = null;
 
     while (node) {
         //saves the next node
-        var save = node.next;
+        let save = node.next;
         //applies a reverse to the pointer
         node.next = previous;
         //increments the previous node to the current node
